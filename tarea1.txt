@@ -1,0 +1,45 @@
+/Users/fernando, /Users, /, o sea 2 
+################################
+Alice3			Documents		Library			My Games		hs_err_pid2382.log	hs_err_pid2425.log
+Anodyne			Downloads		Local Settings		Pictures		hs_err_pid2390.log	hs_err_pid2458.log
+Applications		Dropbox			Movies			Public			hs_err_pid2395.log	hs_err_pid2560.log
+Creative Cloud Files	FrostWire		Music			Start Menu		hs_err_pid2399.log	libfreenect
+Desktop			Google Drive		My Documents		Wine Files		hs_err_pid2405.log	repos
+###############################
+.			.bash_profile		.jssc			Alice3			Google Drive		Start Menu		hs_err_pid2560.log
+..			.cache			.local			Anodyne			Library			Wine Files		libfreenect
+.CFUserTextEncoding	.config			.mono			Applications		Local Settings		hs_err_pid2382.log	repos
+.DS_Store		.cups			.mplayer		Creative Cloud Files	Movies			hs_err_pid2390.log
+.Trash			.dropbox		.npm			Desktop			Music			hs_err_pid2395.log
+.Xauthority		.dvdcss			.oracle_jre_usage	Documents		My Documents		hs_err_pid2399.log
+.adobe			.fontconfig		.rnd			Downloads		My Games		hs_err_pid2405.log
+.alice3installer	.gitconfig		.subversion		Dropbox			Pictures		hs_err_pid2425.log
+.bash_history		.imagineer_log.txt	.viminfo		FrostWire		Public			hs_err_pid2458.log
+###############################
+/Users/fernando/Desktop
+############################
+fernandos-MacBook-Pro-2:Desktop fernando$ mkdir test
+fernandos-MacBook-Pro-2:Desktop fernando$ cd test
+fernandos-MacBook-Pro-2:test fernando$ mkdir hello
+fernandos-MacBook-Pro-2:test fernando$ mkdir world
+fernandos-MacBook-Pro-2:test fernando$ ls
+hello	world
+fernandos-MacBook-Pro-2:test fernando$ cd hello
+fernandos-MacBook-Pro-2:hello fernando$ mkdir fernando
+fernandos-MacBook-Pro-2:hello fernando$ 
+#######################
+fernandos-MacBook-Pro-2:world fernando$ ls
+test_a.txt	test_b.txt
+######################
+fernandos-MacBook-Pro-2:world fernando$ rm test_a.txt
+fernandos-MacBook-Pro-2:world fernando$ ls
+test_b.txt
+fernandos-MacBook-Pro-2:world fernando$ 
+#################
+fernandos-MacBook-Pro-2:world fernando$ cp test_b.txt /Users/fernando/Desktop/test/hello/fernando
+###########################
+fernandos-MacBook-Pro-2:Desktop fernando$ mv test /Users/fernando
+#########################
+fernandos-MacBook-Pro-2:test fernando$ rm -r world
+#########################
+fernandos-MacBook-Pro-2:test fernando$ man echo
